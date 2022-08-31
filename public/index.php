@@ -35,9 +35,6 @@
                         <thead></thead>
                         <tbody>
                             <?php
-                            for ($i = 0; $i < sizeof($this->historicoMovimentacao); $i++) {
-                                echo ("<tr><td>" . $this->historicoMovimentacao[$i] . "</td></tr>");
-                            }
 
                             foreach ($this->historicoMovimentacao as $historico) {
                                 echo ("<tr><td>$historico</td></tr>");
