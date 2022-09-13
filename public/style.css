@@ -9,3 +9,7 @@
     width: 40ch;
     margin: 0 auto;
 }
+
+.extrato::before{
+    height: 10x;
+}
